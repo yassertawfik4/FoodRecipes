@@ -1,0 +1,79 @@
+
+.form .btn{
+    background: black;
+    color: white;
+}
+.landing{
+    height:calc(100vh - 125px);
+}
+.col{
+    color: red;
+}
+.landing .info{
+    margin-bottom: 100px !important;
+}
+.name::placeholder{
+    color:black;
+}
+.navbar .navbar-brand .image{
+    width: 100px;
+}
+.prodect-img{
+    border-radius: 6px;
+}
+.landing-box{
+    background-color: #f4f4f4;
+    padding-top:70px !important ;
+}
+.landing-box .row .posts{
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px !important;
+    transition: 0.4s;
+}
+.landing-box .row .posts:hover{
+    transform: translateY(-10px);
+}
+.landing-box .row .posts .btn{
+    background-color: red;
+    color: white;
+    border: none;
+    transition: 0.4s;
+    font-weight: 500;
+}
+.landing-box .row .posts .btn:hover{
+    background-color: white;
+    color: red;
+}
+.landing-box .title{
+    color: red;
+}
+.landing .form .name{
+    background: #f4f4f4;
+    border: none;
+    padding-left: 100px  !important;
+    padding-right: 100px  !important;
+    transition: 0.4s;
+}
+.landing .form .name:focus{
+    padding-right: 150px  !important;
+}
+.dropdown-menu li a{
+    color: red;
+    font-weight: 500;
+}
+@media (max-width:767px) {
+    .landing{
+    height:calc(70vh - 125px);
+    }
+    .prodect-img{
+        width: 80%!important;
+    }
+    .landing .form .name{
+        padding-left: 50px  !important;
+    padding-right: 50px  !important;
+    }
+    .landing .form .name:focus{
+        padding-right: 80px  !important;
+    }
+}
